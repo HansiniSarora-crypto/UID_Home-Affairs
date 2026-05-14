@@ -1,0 +1,28 @@
+.code {
+  display: flex;             
+  justify-content: center;     
+  gap: 30px;                   
+  padding: 40px;
+  
+}
+
+.cold {
+  background: white;
+  border-radius: 8px;
+  padding: 30px;
+  width: 220px;                
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+   background-color: snow;
+}
+
+.cold:hover {
+  transform: translateY(-5px); 
+}
+
+.cold h2{
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}

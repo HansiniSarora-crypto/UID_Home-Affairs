@@ -1,0 +1,36 @@
+.hero {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery, .press-note {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.photo-grid img {
+  width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.press-note h3 {
+  color: #003366;
+  margin-top: 10px;
+}
+p{
+    font-size: larger;
+}

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ministry_HomeAffairs</title>
+        <link rel="stylesheet" href="Outer.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="stylesheet" href="Desktop.css">
+        <link rel="stylesheet" href="Laptop.css">
+        <style>
+            nav {
+                background-color: #003366;
+                width: 100%;
+            }
+            nav ul {
+                list-style: none;
+                display: flex;
+                justify-content:space-around;
+                padding: 0;
+                margin: 0;
+            }
+            nav ul li {
+                flex: 1;
+                text-align: center;
+            }
+            nav ul li a {
+               display: block;
+               color: white;
+               text-decoration: none;
+               font-weight: 18px;
+               padding:18px 0;
+            }
+            nav ul li a:hover {
+              background-color: #0055aa;
+            }
+            .notifications{
+               text-decoration: none;
+               font-size: larger;
+               color: sienna;
+
+            }
+            .notifications:hover{
+                text-decoration:dotted;
+                color: mediumvioletred;
+            }
+            .list{
+                list-style:circle;
+            }
+            .jar{
+                text-decoration: none;
+                color: darkmagenta;
+            }
+            .jar:hover{
+                color: brown;
+            }
+            .pot{
+               display: block;
+               text-decoration: none;
+               font-weight: 18px;
+               padding:18px 0;
+               color: lightcoral;
+            }
+            .pot:hover{
+                background-color: thistle;
+            }
+            .track{
+                background-color: black;
+            }
+            .Content{
+                display:grid;
+                grid-template-rows: auto auto auto auto auto;
+                grid-template-columns: auto auto;
+                grid-template-areas: 
+                       "header header"
+                        "container container"
+                        "sale sale"
+                        "sider sider"
+                        "footer footer";
+                gap:10px;
+                padding:10px;
+                width: 100vw;
+                height: 100vh;
+            }
+            .header{
+                grid-area: header;
+                display: flex;             
+                align-items: center;        
+                justify-content: space-between; 
+                padding: 10px 20px;
+                background-color: #f9f9f9;
+            }
+            .container{
+                grid-area: container;
+                display: flex;
+                justify-content: space-between;  
+            }
+            .sale{
+                grid-area: sale;
+            }
+            .sider{
+                grid-area: sider;
+            }
+            .footer{
+                grid-area: footer;
+            }
+            .bar{
+                background-color:  #01274e;
+            }
+             .Flags{
+               display: block;
+               font-weight: 18px;
+               padding:18px 0;
+            }
+            .Flags:hover{
+                background-color:powderblue;
+            }
+            .cool{
+               display: block;
+               text-decoration: none;
+               font-weight: 18px;
+               padding:18px 0;
+               font-size: large;
+               color: rebeccapurple;
+            }
+            .cool:hover{
+                background-color: mistyrose;
+            }
+            .course:hover {
+              background-color:darkorange;
+            }
+            .Amrita{
+                text-decoration: none;
+            }
+            .Amrita:hover{
+               background-color: plum;
+               text-decoration: dotted;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Content">
+            <div class="header">
+                <h3 style="text-align: left;">INDIAN GOVERNMENT | GOVERNMENT OF INDIA</h3>
+            </div>
+            <div class="container">
+                <img src="https://i.pinimg.com/1200x/fe/e1/f9/fee1f9f7d676d3dff07853bac41cf2d1.jpg" align="left" width="150" height="200" style="border-radius:5px;">
+                <h1 style="text-align: left;">
+                   <b>  गृह मंत्रालय</b><br>
+                    MINISTRY OF<br>
+                   <b>HOME AFFAIRS</b>
+                </h1> 
+                <img src="Images.png" style="border-radius:5px;" align="right" width="750" >               
+            </div>
+            <div class="sale">
+                <nav>
+                <ul>
+                <li><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
+                <path d="M8 .5l6 6V15H2V6.5l6-6z"/>
+                </svg> Home</a></li>
+                <li><a href="About.html">About Us +</a></li>
+                <li><a href="IPS.html">IPS</a></li>
+                <li><a href="Media.html">Media +</a></li>
+                <li><a href="Departments.html">Departments of MHA</a></li>
+                <li><a href="Divisions.html">Divisions of MHA</a></li>
+                <li><a href="Services.html">Services +</a></li>
+                <li><a href="Documents.html">Documents +</a></li>
+                <li><a href="Notifications.html">Notifications +</a></li>
+                <li><a href="More.html">More ▼</a></li>
+                </nav>
+                <img src="https://www.mha.gov.in/sites/default/files/styles/homepage_top_slider/public/harghartiranga_13082024.jpg?itok=aKfjuEkO" width="100%">
+            </div>
+            <div class="sider">
+                <img src="Union.png" style="border-radius:5px;" align="right" height="730" width="350" >
+                <h2>🔖WHAT'S NEW</h2>
+                <ul class="list">
+                <li>
+                  <a href="https://www.mha.gov.in/sites/default/files/Awards_30042026.pdf" class="notifications">Calling for recommendation for the award of President's Medal for Distinguished Service (PSM) and Medal for <br> 
+                    Meritorious Service (MSM) in respect of personnel of Police, Fire, HG & CD and Correctional Services on the occasion of<br>
+                    Independence Day - 2026 - reg.<br>
+                   📑Download (627.52 KB)</a>
+                </li>
+                <br>
+                <li>
+                 <a href="https://www.mha.gov.in/en" class="notifications"> Inviting Ideas for Conceptualization of Tableaux for Rashtriya Ekta Diwas Parade 2026<br>  
+                  Click Here</a>
+                </li>
+                <br>
+                <li>
+                  <a href="https://www.mha.gov.in/sites/default/files/MTSG_linkpage_13042026.pdf" class="notifications">Result of MTS (G) 2025 exam in IB  <br>
+                   📑Download (15.25 KB)</a>
+                </li>
+                <br>
+                <li>
+                    <a href="https://www.mha.gov.in/sites/default/files/Awards_08042026.pdf" class="notifications">Calling for recommendation for the award of President's Medal for Distinguished Service (PSM) and Medal of<br> 
+                    Meritorious Service (MSM) in respect of personnel of Police, Fire, HG & CD and Correctional Services on the<br> occasion of Independence
+                    Day - 2026 - reg.<br>  
+                    📑Download (1.25 MB)</a>
+                </li>
+                <br>
+                <li>
+                  <a href="https://www.mha.gov.in/sites/default/files/Uncourse_07042026.pdf" class="notifications">Invitation to attend training of trainers course on the new Core Pre-deployment Training Materials at Malaysian<br>
+                   Peacekeeping Centre from 1 to 11 June 2026 - reg.<br>
+                  📑Download (1.47 MB)</a>
+                </li>
+                <br>
+                <li>
+                  <a href="https://www.mha.gov.in/sites/default/files/Secondment_13032026.pdf" class="notifications">Launch of Recruitment process for two posts in United Nations Office in the African Union(UNOAU) - reg.<br>
+                   📑Download (4.7 MB)</a>
+                </li>
+                <br>
+                <li>
+                  <a href="https://www.mha.gov.in/sites/default/files/Policesecondment_09032026.pdf" class="notifications">Police Secondment Campaign Permanent Mission of India - reg.<br>
+                    📑Download(1.99 MB)</a>
+                </li>
+                <br>
+                <li>
+                  <a href="https://www.mha.gov.in/sites/default/files/SSFVacancy_09032026.pdf" class="notifications">Filling up of post of Assistant Commandant in SSF, MHA on deputation basis - reg.<br>
+                    📑Download(285.16 KB)</a>
+                </li>
+                <br>
+                 <li>
+                   <a href="https://www.mha.gov.in/sites/default/files/SA_MT2025_finalresult_04052026.pdf" class="notifications">Result of SA/MT 2025 exam in IB
+                     📑Download (4.17 KB)</a>
+                </li>
+                </ul>
+                <div class="outer-box">
+                    <div class="card">
+                        <img src="E Commerce.png">
+                        <ul>
+                            <li>
+                                <a href="https://fcraonline.nic.in/home/index.aspx" class="jar">FCRA</a>
+                            </li>
+                            <li>
+                                <a href="https://badp.mha.gov.in/" class="jar">BADP Online Management System</a>
+                            </li>
+                            <li>
+                                <a href="https://papvt.mha.gov.in/" class="jar">Apply Visiting Tibetan Settlement</a>
+                            </li>
+                            <li>
+                                <a href="https://www.pgportal.gov.in/" class="jar">Public Grivances</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="Info.png">
+                        <ul>
+                            <li>
+                                <a href="https://www.pmindia.gov.in/en/interact-with-honble-pm/" class="jar">Interact with PM</a>
+                            </li>
+                            <li>
+                                <a href="https://www.mha.gov.in/en/commoncontent/monthly-major-achievements-mha" class="jar">Monthly Major Achivements MHA</a>
+                            </li>
+                            <li>
+                                <a href="https://www.mha.gov.in/sites/default/files/Tableofprecedence_28112018.pdf" class="jar">Table for Precedence</a>
+                            </li>
+                            <li>
+                                <a href="https://pmnrf.gov.in/en/" class="jar">Donate to PMs Relief Fund</a>
+                            </li>
+                        </ul>
+                        <button>More+</button>
+                    </div>
+                    <div class="card">
+                        <img src="Safer.png">
+                        <ul>
+                            <li>
+                                <a href="https://www.mha.gov.in/notifications/circulars-covid-19" class="jar">CIRCULAR FOR COVID - 19</a>
+                            </li>
+                            <li>
+                                <a href="https://www.mha.gov.in/sites/default/files/2024-10/Listof57terrorists_07032024.pdf" class="jar">INDIVIDUAL TERRORISTS UNDER UAPA</a>
+                            </li>
+                            <li>
+                                <a href="https://www.mha.gov.in/en/divisionofmha/counter-terrorism-and-counter-radicalization-division/Banned-Organizations" class="jar">Banned Organizations</a>
+                            </li>
+                            <li>
+                                <a href="http://nhrc.nic.in/" class="jar">Communal Violence</a>
+                            </li>
+                        </ul>
+                        <button>More+</button>
+                    </div>
+                </div>
+                <section class="cards">
+                  <div class="hot">
+                     <span class="icon">🏆</span>
+                     <a href="https://www.mha.gov.in/en/media/awards-medals" class="pot"><h3>Awards & Medals</h3></a>
+                   </div>
+                   <div class="hot">
+                      <span class="icon">📊</span>
+                      <a href="https://www.mha.gov.in/en/schemes" class="pot"><h3>Schemes</h3></a>
+                     </div>
+                </section>
+                <div class="bar">
+                <section class="main">
+                <div claas="event">
+                   <video width="950" height="300" controls>
+                    <source src="Video.mp4" type="video/mp4">
+                   </video>
+                </div>
+                <div class="event-sidebar">
+                    <ul>
+                        <li><a href="https://www.mha.gov.in/hi/documents/national-flag-emblem-anthem" class="Flags" style="text-decoration: none; text-align: center;"> National Flag, Emblem & Anthem</a></li>
+                        <li><a href="https://www.mha.gov.in/page/phone-e-mail-directories-phone-e-mail-directories" class="Flags" style="text-decoration: none; text-align: center;"> Phone & E-mail Directories</a></li>
+                        <li><a href="https://www.mha.gov.in/hi/media/e-book/3-years-modi-government-continuous-progression-prosperity-path" class="Flags" style="text-decoration: none; text-align: center;"> eBook</a></li>
+                        <li><a href="https://www.mha.gov.in/hi/media/gallery" class="Flags" style="text-decoration: none; text-align: center;"> View the Gallery</a></li>
+                    </ul>
+                </div>
+                </section>
+                </div>
+                <br>
+                <br>
+                <img src="Screenshot 2026-05-04 175940.png"> 
+                <section class="code">
+                    <div class="cold">
+                        <h2 style="text-decoration: dashed;">ALLIED ORGANISATIONS</h2>
+                        <ul>
+                            <li><a href="https://www.youtube.com/channel/UCN2fiHd5IFWtNyu-vpAkeEA/videos" class="cool">Police aur Seva</a></li>
+                            <li><a href="https://nidm.gov.in/default.asp" class="cool">NationalInstitute of Disaster Management,I.P.<br>Estate, Ring Road,N.Delhi-2</a></li>
+                            <li><a href="https://ndma.gov.in/" class="cool">National Disaster Management Authority,NDMA<br>Bhawan,A-1,Safdarjung Enclave,N.De..</a></li>
+                        </ul>
+                    </div>
+                    <div class="cold">
+                        <h2 style="text-decoration: dashed;"> ATTACHED / SUBORDINATE OFFICE</h2>
+                        <ul>
+                            <li><a href="https://www.hrdp-idrm.in/e5830/e18071" class="cool">National Civil Defence College, Nagpur-440001</a></li>                 
+                            <li><a href="http://rajbhashasamiti.gov.in/" class="cool">Committee Of Parliament on Official Language</a></li>
+                            <li><a href="https://ndrf.gov.in/" class="cool">National Disaster Response Force</a></li>
+                            <li><a href="https://www.nepa.gov.in/" class="cool">North Eastern Police Academy, Umsaw, Umiam-<br> 793123, Meghalaya</a></li>
+                            <li><a href="https://www.mha.gov.in/en/page/zonal-council" class="cool">Zonal Council Secretariat,9/11,Jamnagar House,<br>Mansingh Road, New Delhi 11</a></li>
+                        </ul>
+                    </div>
+                    <div class="cold">
+                        <h2 style="text-decoration: dashed;">OTHER ORGANISATIONS</h2>
+                        <ul>
+                            <li><a href="https://egazette.gov.in/(S(fqgcw0tapin5tvlchh2ehcqy))/default.aspx" class="cool" style="text-align: center;">E-Gazette</a></li>
+                            <li><a href="https://kpkb.mha.gov.in/" class="cool">Kendriya Police Kalyan Bhandar</a></li>
+                            <li><a href="https://www.sdgindia2030.mospi.gov.in/dashboard/" class="cool">MOSPI(SDGs, KPIs)</a></li>
+                            <li><a href="https://play.google.com/store/apps/details?id=ayush.gov.in.ybreak&pli=1" class="cool">Yoga Break Protocol/App</a></li>
+                            <li><a href="https://www.data.gov.in/" class="cool">Government Data</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="carousel">
+                <button class="arrow left">&#10094;</button>
+                <div class="carousel-track">
+                    <img src="https://i.pinimg.com/1200x/0f/dd/81/0fdd81a5ebdf7811122d452fa75c8262.jpg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn-4kpqtkkhSLuiT6CAFzKc8QGZZDPEnhZlw&s">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53o8WJgkTvgSBDoujiPYaXW4QB-x2h2-6Xg&s">
+                    <img src="https://i.pinimg.com/736x/fb/86/e3/fb86e36a04d4fc8ad11d745202c263ab.jpg">
+                    <img src="https://i.pinimg.com/736x/42/5e/4a/425e4a24db5629085e169d4000dedb18.jpg">
+                    <img src="https://i.pinimg.com/736x/b5/53/a2/b553a25e75ea6afdf3fc6689b022c1e4.jpg">
+                    <img src="https://i.pinimg.com/1200x/63/be/00/63be0038663e3a16dd9b9763778550b6.jpg">
+                    <img src="https://cdn.slidesharecdn.com/ss_thumbnails/communityengagement11-12-2014-141219050855-conversion-gate01-thumbnail.jpg?width=640&height=640&fit=bounds">
+                    <img src="https://i.pinimg.com/1200x/f3/44/9c/f3449c3de93fe860c33ae6469926503b.jpg">
+                </div>
+                <button class="arrow right">&#10095;</button>
+                </div>
+                <script src="script.js"></script>
+            </div>
+            <div class="footer">
+                <nav>
+                <ul>
+                <li><a href="https://www.mha.gov.in/en/page/website-policy" class="course">Website Policies</a></li>
+                <li><a href="https://www.mha.gov.in/en/help" class="course">Help</a></li>
+                <li><a href="https://www.mha.gov.in/en/contactus" class="course">Contact Us</a></li>
+                <li><a href="https://www.mha.gov.in/en/web-information-manager" class="course">Web Information Manager</a></li>
+                <li><a href="https://www.mha.gov.in/en/accessibility-statement" class="course">Accessibility Statement</a></li>
+                <li><a href="https://www.mha.gov.in/en/faq" class="course">FAQ</a></li>
+                <li><a href="https://www.mha.gov.in/en/terms-conditions" class="course">Terms & Conditions</a></li>
+                <li><a href="https://www.mha.gov.in/screen-reader-access" class="course">Screen Reader Access</a></li>
+                </ul>
+                </nav>
+                <div class="track">
+                    <img src="CMF.png" align="center">
+                    <img src="CQW.png" align="right">
+                    <p style="color: white;text-align: center;">Website Content owned & provided by Ministry of Home Affairs, GOI Best viewed in Mozilla, Chrome and equivalent browsers, Copyright © 2023
+                    All Rights Reserved<br> Designed, Developed and Hosted by <a href="https://www.xn--m1bcw4hqd2b.xn--11b7cb3a6a.xn--h2brj9c/" class="Amrita">National Informatics Center(NIC)</a><br>Last Updated: 30 Apr 2026 <br>Total Visitor:<b>1,129,462,975</b></p>
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>

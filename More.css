@@ -1,0 +1,51 @@
+.hero {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #003366;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: large;
+}
+
+.photo-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-grid img {
+  width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+p{
+    font-size: larger;
+}
+.jar{
+    text-decoration: none;
+    color: midnightblue;
+    display: block;
+    font-size: larger;
+}
+.jar:hover{
+    background-color: lightblue;
+
+}
